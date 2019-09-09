@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+}
+ul > li{
+    display: inline;
+    
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    /* background-color:#fff; */
+    display: flex;
+    align-items: center;
+}
+.navConment{
+    padding: 0 300px;
+}
+.navConmentText{
+    /* justify-content: flex-end; */
+}
+.navConmentText > ul > li > a{
+    color: #333333;
+}
+.navConmentText > ul{
+    float: right;
+    padding: 0 ;
+}
+.navConmentText > ul > li{
+    padding: 0 14px;
+}
+/* banner */
+.webBanner{
+    background: url(../img/entering.png) no-repeat;
+    width: 100%;
+    height: 400px;
+    position: fixed;
+}
+.webBannerRight{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.webBannerRight > h1{
+    font-size: 52px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+    color: #ffffff;
+    letter-spacing: 22px;
+}
+.webBannerRight > span{
+    font-size: 26px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.webBannerLeft{
+    float: right;
+}
+.webBannerLeftConC{
+    width: 8px;
+    height: 8px;
+    background-color: #EF4D25;
+    border-radius: 50%;
+}
+.webBannerLeft > div > h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin:0; 
+    color: #ffffff;
+}
+.webBannerLeft > div > span{
+    font-size: 14px;
+    color: #ffffff;
+}
+/* input */
+input{
+    border: none;
+    border-bottom: 1px solid #b5b5bb;
+    outline: none; 
+    width: 350px;
+    color: #333333;
+    font-size: 14px;
+    height: 32px;    
+}
+input:focus{
+    border-bottom: 1px solid #EF4D25;
+}
+input::placeholder{
+    color: #b5b5b5;
+    font-size:14px;
+}
+.inputMain{
+    margin-top: 450px;
+    margin-left: 300px;
+}
+.inputMainOne > input{
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+button{
+    outline: none;
+    background-color: #EF4D25;
+    border: none;
+    padding: 0 50px;
+    color: #ffffff;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 1000px;
+}
+button:hover{
+    cursor: pointer;
+}
+.enteringPhone{
+    float: right;
+}

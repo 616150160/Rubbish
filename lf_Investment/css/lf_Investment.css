@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* nav */
+nav{
+    width: 750px;
+    height: 128px;
+    background-color: #fff;
+    
+}
+nav > img{
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    margin-top: 55px;
+}
+nav > p{
+    margin:0 0 0 240px;
+    display: inline-block;
+    font-size: 32px;
+    color: #333333;
+}
+/* banner */
+.topBanner{
+    background: url(../img/enteringBg.png)  no-repeat; 
+    color: #ffffff;
+    width: 750px;
+    height: 345px;
+}
+.topBannerText{
+    width: 750px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.topBannerText > h1{
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin: 0 0 10px 10px;
+}
+.topBannerText > span{
+    font-size: 24px;
+    font-weight: 500;
+}
+/* main */
+.main{
+    width: 690px;
+    padding: 0 30px;
+}
+.mainContent{
+    display: flex;
+    padding: 60px 0 0 0;
+}
+.mainContentText{
+    margin-left: 20px;
+}
+.mainContent > img{
+    width: 80px;
+    height: 80px;
+}
+.mainContentText > p{
+    font-size: 32px;
+    color: #333333;
+    margin: 0 0 6px 0;
+}
+.mainContentText > span{
+    font-size: 24px;
+    color: #b5b5b5;
+}
+/* phone */
+.phone{
+    background-color:#f5f5f5;
+    width: 750px;
+    height: 252px;
+    margin-top: 60px;
+}
+.phoneText{
+    padding: 30px;
+}
+.phoneText > span{
+    font-size: 24px;
+    color: #999999;
+}
+.phoneText > p{
+    font-size: 32px;
+    color: #333333;
+    margin: 10px 0 0 0;
+}
+button{
+    font-size: 32px;
+    color: #333333;
+    border: none;
+    outline: none;
+    width: 750px;
+    height: 128px;
+    background-color: #fff;
+    box-shadow:0px 0px 18px 0px rgba(33,33,33,0.4);
+    border-radius:20px 20px 0px 0px;
+    background: url(../img/up.png) no-repeat center top 16px;
+}
+/* 遮罩 */
+/* .mask{
+    position: fixed;
+    background:rgba(0,0,0,1);
+    opacity: 0.2;
+    width: 750px;
+    height: 1334px;
+} */
+
+
+
+
+
